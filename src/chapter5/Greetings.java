@@ -14,6 +14,8 @@ public class Greetings {
         Scanner scanner = new Scanner(System.in);
         String userName = scanner.next();
 
+        scanner.close();
+
         // Call the greetUser Method
         greetUser(userName);
     }
