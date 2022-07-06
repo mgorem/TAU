@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 // Main method is used to control the flow of the program.
 public class Greetings {
-    // access modifier, non-access modifier, datatype to be returned, name of method.
     public static void main(String args[]){
         System.out.println("Enter your name: ");
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +16,7 @@ public class Greetings {
 
         scanner.close();
 
-        // Call the greetUser Method to execute it
+        // Call the greetUser Method
         greetUser(userName);
     }
 
